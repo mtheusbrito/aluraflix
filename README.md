@@ -1,6 +1,4 @@
-<h1 align="center">Aluraflix</h1>
-
-<p align="center" >
+<p align="center">
    <img alt="Logo da aplicação" width="150px" src="./src/assets/img/logo.png" />
 </p>
 
