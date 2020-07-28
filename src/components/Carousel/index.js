@@ -3,7 +3,7 @@ import { VideoCardGroupContainer, VideoCardList, Title, ExtraLink } from './styl
 import VideoCard from './components/VideoCard'
 
 function VideoCardGroup ({
-  ignoreFirstVideo,
+  ignoreVideoByUrl,
   category
 }) {
   const categoryTitle = category.titulo
@@ -26,7 +26,7 @@ function VideoCardGroup ({
       )}
       <VideoCardList>
         {videos.map((video, index) => {
-          if (ignoreFirstVideo && index === 0) {
+          if (ignoreVideoByUrl && ignoreVideoByUrl === video.url) {
             return null
           }
 
