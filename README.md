@@ -1,7 +1,7 @@
 <h1 align="center">Aluraflix</h1>
 
-<p align="center">
-  <img alt="Logo do evento" width="150px" src="https://www.alura.com.br/assets/img/imersoes/react/imersao-react-logo.1594044142.svg" /> <img alt="Logo da aplicação" width="150px" src="./src/assets/img/logo.png" />
+<p align="center" >
+   <img alt="Logo da aplicação" width="150px" src="./src/assets/img/logo.png" />
 </p>
 
  ## Descrição do Projeto
@@ -9,7 +9,7 @@ Aplicação que reúne seus vídeos favoritos do YouTube. Construido durante a [
 
 
 ## Tecnologias utilizadas 
-🔗 [React](https://pt-br.reactjs.org/)
+🔗 [React](https://pt-br.reactjs.org/) <br>
 🚀 Lib para construir interfaces do usuário com componentes reutilizáveis.
 
 ## Rotas
