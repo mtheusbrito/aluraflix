@@ -1,4 +1,26 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">Aluraflix</h1>
+
+<p align="center">
+  <img alt="Logo do evento" width="150px" src="https://www.alura.com.br/assets/img/imersoes/react/imersao-react-logo.1594044142.svg" />
+</p>
+<p align="center">
+  <img alt="Logo da aplicação" width="150px" src="./src/assets/img/logo-evento.svg" />
+</p>
+
+## Descrição do Projeto
+<p align="center">Aplicação que reúne seus vídeos favoritos do YouTube.<br>
+Construido durante a [Imersão React da Alura](https://www.alura.com.br/imersao-react/)</p>
+
+
+## Tecnologias utilizadas 
+
+<h1 align="center">
+    <a href="https://pt-br.reactjs.org/">🔗 React</a>
+</h1>
+<p align="center">🚀 Lib para construir interfaces do usuário com componentes reutilizáveis.</p>
+
+## Rotas
+
 
 ## Available Scripts
 
