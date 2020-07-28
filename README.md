@@ -1,26 +1,18 @@
 <h1 align="center">Aluraflix</h1>
 
 <p align="center">
-  <img alt="Logo do evento" width="150px" src="https://www.alura.com.br/assets/img/imersoes/react/imersao-react-logo.1594044142.svg" />
-</p>
-<p align="center">
-  <img alt="Logo da aplicação" width="150px" src="./src/assets/img/logo.png" />
+  <img alt="Logo do evento" width="150px" src="https://www.alura.com.br/assets/img/imersoes/react/imersao-react-logo.1594044142.svg" /> <img alt="Logo da aplicação" width="150px" src="./src/assets/img/logo.png" />
 </p>
 
-<h1 align="center">Descrição do Projeto</h1>
-<p align="center">Aplicação que reúne seus vídeos favoritos do YouTube.<br>
-Construido durante a <a href="https://www.alura.com.br/imersao-react/">Imersão React da Alura</a></p>
+ ## Descrição do Projeto
+Aplicação que reúne seus vídeos favoritos do YouTube. Construido durante a [Imersão React da Alura](https://www.alura.com.br/imersao-react/).
 
 
-<h1 align="center">Tecnologias utilizadas</h1> 
-
-<h2>
-    <a target="_blank" href="https://pt-br.reactjs.org/">🔗 React</a>
-</h2>
-<p>🚀 Lib para construir interfaces do usuário com componentes reutilizáveis.</p>
+## Tecnologias utilizadas 
+🔗 [React](https://pt-br.reactjs.org/)
+🚀 Lib para construir interfaces do usuário com componentes reutilizáveis.
 
 ## Rotas
-
 
 
 
@@ -77,7 +69,7 @@ Para aprender o React, consulte a [Documentaçõa do React](https://reactjs.org/
 
 Esta seção foi movida para aqui: https://facebook.github.io/create-react-app/docs/code-splitting
 
-### Analizando o tamenho do pacote
+### Analizando o tamanho do pacote
 Esta seção foi movida para aqui: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
 ### Criando um Progressive Web App
