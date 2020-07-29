@@ -24,7 +24,13 @@ a {
   color: inherit;
 }
 #root{
-  min-height: 100vh;
+  min-height: calc(100vh - var(--bodyPaddingTop));
   display: flex;
   flex-direction: column;
+}
+.btn-edit{
+  background:#2a7ae4;
+}
+.btn-trash{
+  background:#f16f6f;
 }

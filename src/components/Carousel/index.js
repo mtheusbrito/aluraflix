@@ -1,15 +1,21 @@
-import React from 'react'
-import { VideoCardGroupContainer, VideoCardList, Title, ExtraLink } from './styles'
-import VideoCard from './components/VideoCard'
+/* eslint-disable no-unused-vars */
+/* eslint-disable react/prop-types */
+/* eslint-disable react/jsx-props-no-spreading */
+import React from 'react';
+import {
+  VideoCardGroupContainer, Title, ExtraLink,
+} from './styles';
+import VideoCard from './components/VideoCard';
+import Slider, { SliderItem } from './components/Slider';
 
-function VideoCardGroup ({
+function Carousel({
   ignoreVideoByUrl,
-  category
+  category,
 }) {
-  const categoryTitle = category.titulo
-  const categoryColor = category.cor
-  const categoryExtraLink = category.link_extra
-  const videos = category.videos
+  const categoryTitle = category.titulo;
+  const categoryColor = category.cor;
+  const categoryExtraLink = category.link_extra;
+  const { videos } = category;
   return (
     <VideoCardGroupContainer>
       {categoryTitle && (
@@ -17,32 +23,33 @@ function VideoCardGroup ({
           <Title style={{ backgroundColor: categoryColor || 'red' }}>
             {categoryTitle}
           </Title>
-          {categoryExtraLink &&
+          {categoryExtraLink
+            && (
             <ExtraLink href={categoryExtraLink.url} target="_blank">
               {categoryExtraLink.text}
             </ExtraLink>
-          }
+            )}
         </>
       )}
-      <VideoCardList>
+      <Slider>
         {videos.map((video, index) => {
           if (ignoreVideoByUrl && ignoreVideoByUrl === video.url) {
-            return null
+            return null;
           }
 
           return (
-            <li key={video.titulo}>
+            <SliderItem key={video.titulo}>
               <VideoCard
                 videoTitle={video.titulo}
                 videoURL={video.url}
                 categoryColor={categoryColor}
               />
-            </li>
-          )
+            </SliderItem>
+          );
         })}
-      </VideoCardList>
+      </Slider>
     </VideoCardGroupContainer>
-  )
+  );
 }
 
-export default VideoCardGroup
+export default Carousel;
