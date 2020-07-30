@@ -34,3 +34,6 @@ a {
 .btn-trash{
   background:#f16f6f;
 }
+input[type='color']{
+  padding: 0px!important;
+}
